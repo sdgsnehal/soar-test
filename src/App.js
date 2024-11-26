@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar";
 import Sidebar from "./component/Sidebar";
 import Dashboard from "./pages/Dashboard";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <div className="flex-1 p-6">
             <Routes>
               <Route path="/" element={<Dashboard />} />
+              <Route path="/settings" element={<Settings />} />
 
               {/* Add more routes as needed */}
             </Routes>

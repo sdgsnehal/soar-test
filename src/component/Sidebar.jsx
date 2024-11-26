@@ -74,7 +74,7 @@ function Sidebar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/settings"
               className="flex items-center space-x-3 hover:text-blue-400"
             >
               <FaCog />
@@ -86,8 +86,8 @@ function Sidebar() {
 
       {/* Main Content */}
       {/* <div className="flex-1 p-8"> */}
-        {/* Add your main content here */}
-        {/* <h1 className="text-2xl font-bold">Welcome to the Dashboard</h1> */}
+      {/* Add your main content here */}
+      {/* <h1 className="text-2xl font-bold">Welcome to the Dashboard</h1> */}
       {/* </div> */}
     </div>
   );
