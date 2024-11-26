@@ -1,6 +1,10 @@
 import { FaArrowRight } from "react-icons/fa";
 import Card from "../component/Card";
 import Transaction from "../component/Transaction";
+import ColumnChart from "../component/charts/ColumnChart";
+import AreaChart from "../component/charts/AreaChart";
+import LineChart from "../component/charts/LineChart";
+import PaymentForm from "../component/PaymentForm";
 
 function Dashboard() {
   return (
@@ -16,6 +20,12 @@ function Dashboard() {
           Recent Transaction
           <Transaction />
         </div>
+      </div>
+      <div>
+        <ColumnChart />
+        <AreaChart />
+        <LineChart />
+        <PaymentForm />
       </div>
     </div>
   );
